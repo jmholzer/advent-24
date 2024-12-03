@@ -5,7 +5,7 @@ use std::path::Path;
 use std::collections::HashMap;
 
 fn read_input() -> io::Result<(Vec<u32>, Vec<u32>)> {
-    let path = Path::new("src/bin/input.txt");
+    let path = Path::new("src/bin/day-one-input.txt");
     let file = File::open(path)?;
     let reader = io::BufReader::new(file);
     
